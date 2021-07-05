@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background:#eee;
+   padding: 30px 30px 0 30px;
+  margin:0 50px 0px 50px; 
+} 
+header{
+    border-bottom:1px solid #ccc;
+}
+nav ul {
+    list-style: none;
+    font-size:10px;
+    padding-top:5px;
+    margin-top:0;
+    text-align:left;
+    padding-left: 2px;
+    margin-bottom: 100px;
+    
+}
+ nav ul li{
+    display:inline-block;
+    margin-right: 20px;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color:#659d89;
+}
+header h2{
+    color:#659d89;
+    font-size: 40px;
+    margin-bottom:5px;
+}
+header h2+p{
+    font-size:28px;
+    display:inline-block;
+    width:35%;
+    margin-top: 0; 
+}
+.icons ul{
+    list-style:none;
+    text-align:right;
+    margin-bottom: 50px;
+}
+.icons ul li img{
+    width:2%;
+}
+div + p{
+    font-size:11px;
+    margin-bottom:40px;
+}
+ div + p::before{
+ content:" ↓";
+ margin-right:18px;
+}
+.struggle{
+    border-bottom:1px solid #ccc;
+}
+
+.struggle h3{
+ margin-top: 45px;
+ margin-bottom: 10px;;
+}
+.struggle h3+p{
+    font-size:11px;
+  
+}
+.struggle figure{
+    width:98%;
+    padding:40px 0; 
+}
+.struggle figure img{
+     width:25%; 
+     margin-left: 5%;
+     margin-bottom:50px;
+}
+.struggle figure img:nth-child(2):hover {
+ box-shadow: 0 0 11px #666;
+}
+.struggle figure img:nth-child(5):hover {
+    box-shadow: 0 0 11px #666;
+   }
+.F-res{
+    border-bottom:1px solid #ccc;
+}
+.F-res h3{
+    margin:50px 0 40px 0;
+}
+/* ungerade */
+.F-res .ungerade{
+    width: 100%;
+}
+.F-res  .ungerade img{
+    width:60%;
+    margin:0 40px;
+}
+.F-res .ungerade img:nth-child(1):hover {
+    box-shadow: 0 0 14px #666;
+   }
+
+.F-res .ungerade h5{
+    font-size:9px;
+   width:62%;
+   text-align:center;
+   margin:5px 10px;
+  
+}
+.F-res .ungerade p:nth-of-type(1){
+    font-size: 14px;
+     width:62%;
+    padding:10px 20px; 
+    text-align:center;
+    margin:0 15px; 
+}
+.F-res .ungerade p:nth-of-type(2){
+    font-size:9px;
+    width:62%;
+    text-align:center;
+    margin-bottom: 70px;
+}
+/* gerade */
+.F-res .gerade {
+    width: 100%;
+    text-align:right;   
+}
+.F-res  .gerade  img{
+    width:60%;
+    margin:0 110px;
+}
+.F-res .gerade figcaption{
+   width:70%;  
+}
+.F-res .gerade h5{
+   font-size:9px;
+  
+}
+.F-res .gerade  p:nth-of-type(1){
+    font-size: 14px;
+    margin-right:-25px;
+  
+}
+.F-res .gerade  p:nth-of-type(2){
+    font-size:9px;
+    margin-right:25px;
+    margin-bottom:70px;
+}
+/* footer */
+footer h4:nth-child(1){
+ text-align: center;
+ padding:50px;
+ margin:20px;
+}
+footer h4:nth-child(1)::before{
+    content:"↑";
+    margin-right:15px;
+}
+
+footer p:last-child{
+    text-align:center;
+    font-size:10px;
+}
+footer p:last-child::before{
+    content:"©";
+    margin-right:3px;
+}
+
+
+
+
+
+
+
+
+
+farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000
+
